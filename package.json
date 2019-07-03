@@ -1,0 +1,41 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/parser": "^7.4.5",
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "istanbul": "^0.4.5",
+    "mochawesome": "^4.0.1",
+    "nyc": "^14.1.1",
+    "stryker-html-reporter": "^0.18.1",
+    "stryker-mocha-runner": "^0.17.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2"
+  },
+  "devDependencies": {
+    "@stryker-mutator/core": "^2.0.0",
+    "@stryker-mutator/html-reporter": "^2.0.0",
+    "@stryker-mutator/mocha-framework": "^2.0.0",
+    "@stryker-mutator/mocha-runner": "^2.0.0",
+    "@stryker-mutator/typescript": "^2.0.0",
+    "mocha": "^6.1.4"
+  },
+  "scripts": {
+    "test": "nyc -r lcov -e .ts -x \"*.spec.ts\" mocha -r ts-node/register Test/*.spec.ts && nyc report && stryker run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c0ncentus/TestQuality.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c0ncentus/TestQuality/issues"
+  },
+  "homepage": "https://github.com/c0ncentus/TestQuality#readme"
+}

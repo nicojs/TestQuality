@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "preserveConstEnums": true,
+    },
+    "include": [
+        "src/*.ts",
+        "Test/*.spec.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
