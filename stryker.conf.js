@@ -4,7 +4,7 @@ module.exports = function(config) {
     packageManager: "npm",
     reporters: ["html","dashboard"],
     testRunner: "mocha",
-    transpilers: ["typescript"],
+    transpilers: [],
     testFramework: "mocha",
     coverageAnalysis: "off",
     tsconfigFile: "tsconfig.json",

@@ -1,3 +1,11 @@
 language: node_js
 node_js:
   - "7"
+  - "6"
+matrix:
+  fast_finish: true
+install:
+  - npm i
+script:
+  - npm run lint
+  - npm test

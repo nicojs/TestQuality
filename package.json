@@ -20,7 +20,7 @@
     "mocha": "^6.1.4"
   },
   "scripts": {
-    "test": "nyc -r lcov -e .ts -x \"*.spec.ts\" mocha -r ts-node/register Test/*.spec.ts && nyc report && stryker run"
+    "test": "nyc -r lcov -e .ts -x \"*.spec.ts\" mocha -r ts-node/register Test/*.spec.ts && nyc report"
   },
   "repository": {
     "type": "git",

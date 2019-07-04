@@ -1,4 +1,3 @@
-export function HelpMeJesusTo(something:string){
-    let res = something +"B"
+export function HelpMeJesusTo(): string{
     return "P"
 }
