@@ -4,3 +4,7 @@ node_modules/
 \.stryker-tmp/
 
 \.coveralls\.yml
+.nyc_output
+reports
+stryker.log
+coverage
