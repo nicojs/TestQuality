@@ -16,11 +16,7 @@
     "stryker-mocha-runner": "^0.17.1",
     "ts-node": "^8.3.0",
     "typescript": "^3.5.2",
-    "@stryker-mutator/core": "^2.0.0",
-    "@stryker-mutator/html-reporter": "^2.0.0",
-    "@stryker-mutator/mocha-framework": "^2.0.0",
-    "@stryker-mutator/mocha-runner": "^2.0.0",
-    "@stryker-mutator/typescript": "^2.0.0",
+    "@stryker-mutator/core": "^2.0.1",
     "mocha": "^6.1.4"
   },
   "scripts": {
@@ -35,5 +31,11 @@
   "bugs": {
     "url": "https://github.com/c0ncentus/TestQuality/issues"
   },
-  "homepage": "https://github.com/c0ncentus/TestQuality#readme"
+  "homepage": "https://github.com/c0ncentus/TestQuality#readme",
+  "devDependencies": {
+    "@stryker-mutator/html-reporter": "^2.0.1",
+    "@stryker-mutator/mocha-framework": "^2.0.1",
+    "@stryker-mutator/mocha-runner": "^2.0.1",
+    "@stryker-mutator/typescript": "^2.0.1"
+  }
 }

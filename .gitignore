@@ -2,3 +2,5 @@
 node_modules/
 
 \.stryker-tmp/
+
+\.coveralls\.yml

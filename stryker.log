@@ -1,0 +1,327 @@
+19:41:29 (8956) INFO ConfigReader Using stryker.conf.js in the current working directory.
+19:41:29 (8956) DEBUG BroadcastReporter Broadcasting to reporters ["html","dashboard"]
+19:41:29 (8956) DEBUG ConfigReader Loading config stryker.conf.js
+19:41:29 (8956) DEBUG PluginLoader Loading @stryker-mutator/* from C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator
+19:41:29 (8956) DEBUG PluginLoader Loading plugin "C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\html-reporter" (matched with expression @stryker-mutator/*)
+19:41:29 (8956) DEBUG PluginLoader Loading plugin "C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\mocha-framework" (matched with expression @stryker-mutator/*)
+19:41:29 (8956) DEBUG PluginLoader Loading plugin "C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\mocha-runner" (matched with expression @stryker-mutator/*)
+19:41:29 (8956) DEBUG PluginLoader Loading plugin "C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\typescript" (matched with expression @stryker-mutator/*)
+19:41:29 (8956) DEBUG PluginLoader Loading plugins C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\html-reporter
+19:41:29 (8956) DEBUG PluginLoader Loading plugins C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\mocha-framework
+19:41:29 (8956) DEBUG PluginLoader Loading plugins C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\mocha-runner
+19:41:29 (8956) DEBUG PluginLoader Loading plugins C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\typescript
+19:41:29 (8956) DEBUG PluginLoader Loading plugins C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\reporters\index.js
+19:41:29 (8956) DEBUG MochaOptionsLoader Mocha >= 6 detected. Using mocha's `loadOptions` to load mocha options
+19:41:29 (8956) TRACE MochaOptionsLoader Mocha: loadOptions([]) => {"_":[],"config":false,"package":false,"opts":false,"diff":true,"extension":["js"],"watch-extensions":["js"],"reporter":"spec","R":"spec","slow":75,"s":75,"timeout":2000,"t":2000,"timeouts":2000,"ui":"bdd","u":"bdd"}
+19:41:29 (8956) DEBUG MochaOptionsLoader Loaded options: {
+  "extension": [
+    "js"
+  ],
+  "timeout": 2000,
+  "ui": "bdd"
+}
+19:41:29 (8956) INFO TypescriptConfigEditor Loading tsconfig file C:\Users\Martin\Desktop\fire\tsconfig.json
+19:41:30 (8956) INFO InputFileResolver Found 1 of 31 file(s) to be mutated.
+19:41:30 (8956) DEBUG InputFileResolver All input files: [
+  "C:\\Users\\Martin\\Desktop\\fire\\.nyc_output\\8d659356-f5e1-4457-80ec-16c68e9e1dda.json",
+  "C:\\Users\\Martin\\Desktop\\fire\\.nyc_output\\9dad85ad-caf2-49a1-a7b7-b0cb6984f201.json",
+  "C:\\Users\\Martin\\Desktop\\fire\\.nyc_output\\processinfo\\8d659356-f5e1-4457-80ec-16c68e9e1dda.json",
+  "C:\\Users\\Martin\\Desktop\\fire\\.nyc_output\\processinfo\\9dad85ad-caf2-49a1-a7b7-b0cb6984f201.json",
+  "C:\\Users\\Martin\\Desktop\\fire\\stryker.log",
+  "C:\\Users\\Martin\\Desktop\\fire\\.circleci\\config.yml",
+  "C:\\Users\\Martin\\Desktop\\fire\\.gitignore",
+  "C:\\Users\\Martin\\Desktop\\fire\\.nyc_output\\processinfo\\index.json",
+  "C:\\Users\\Martin\\Desktop\\fire\\README.md",
+  "C:\\Users\\Martin\\Desktop\\fire\\Test\\lol.spec.ts",
+  "C:\\Users\\Martin\\Desktop\\fire\\coverage\\lcov-report\\Test\\index.html",
+  "C:\\Users\\Martin\\Desktop\\fire\\coverage\\lcov-report\\Test\\lol.spec.ts.html",
+  "C:\\Users\\Martin\\Desktop\\fire\\coverage\\lcov-report\\base.css",
+  "C:\\Users\\Martin\\Desktop\\fire\\coverage\\lcov-report\\block-navigation.js",
+  "C:\\Users\\Martin\\Desktop\\fire\\coverage\\lcov-report\\index.html",
+  "C:\\Users\\Martin\\Desktop\\fire\\coverage\\lcov-report\\prettify.css",
+  "C:\\Users\\Martin\\Desktop\\fire\\coverage\\lcov-report\\prettify.js",
+  "C:\\Users\\Martin\\Desktop\\fire\\coverage\\lcov-report\\sort-arrow-sprite.png",
+  "C:\\Users\\Martin\\Desktop\\fire\\coverage\\lcov-report\\sorter.js",
+  "C:\\Users\\Martin\\Desktop\\fire\\coverage\\lcov-report\\src\\index.html",
+  "C:\\Users\\Martin\\Desktop\\fire\\coverage\\lcov-report\\src\\lol.ts.html",
+  "C:\\Users\\Martin\\Desktop\\fire\\coverage\\lcov.info",
+  "C:\\Users\\Martin\\Desktop\\fire\\package-lock.json",
+  "C:\\Users\\Martin\\Desktop\\fire\\package.json",
+  "C:\\Users\\Martin\\Desktop\\fire\\reports\\mutation\\html\\bind-mutation-test-report.js",
+  "C:\\Users\\Martin\\Desktop\\fire\\reports\\mutation\\html\\index.html",
+  "C:\\Users\\Martin\\Desktop\\fire\\reports\\mutation\\html\\mutation-test-elements.js",
+  "C:\\Users\\Martin\\Desktop\\fire\\reports\\mutation\\html\\stryker-80x80.png",
+  "C:\\Users\\Martin\\Desktop\\fire\\src\\lol.ts",
+  "C:\\Users\\Martin\\Desktop\\fire\\stryker.conf.js",
+  "C:\\Users\\Martin\\Desktop\\fire\\tsconfig.json"
+]
+19:41:30 (8956) DEBUG InputFileResolver Files to mutate: [
+  "C:\\Users\\Martin\\Desktop\\fire\\src\\lol.ts"
+]
+19:41:30 (8956) DEBUG TestFrameworkOrchestrator The `coverageAnalysis` setting is "off", not hooking into the test framework to achieve performance benefits.
+19:41:30 (8956) INFO InitialTestExecutor Starting initial test run. This may take a while.
+19:41:30 (8956) DEBUG TranspilingLanguageService Pulling file into memory: C:/Users/Martin/Desktop/fire/node_modules/@types/chai/index.d.ts
+19:41:30 (8956) DEBUG TranspilingLanguageService Pulling file into memory: C:/Users/Martin/Desktop/fire/node_modules/@types/minimatch/index.d.ts
+19:41:30 (8956) DEBUG TranspilingLanguageService Pulling file into memory: C:/Users/Martin/Desktop/fire/node_modules/@types/mocha/index.d.ts
+19:41:30 (8956) DEBUG TranspilingLanguageService Resolving lib file lib.d.ts to C:\Users\Martin\Desktop\fire\node_modules\typescript\lib\lib.d.ts
+19:41:30 (8956) DEBUG TranspilingLanguageService Pulling file into memory: lib.d.ts
+19:41:30 (8956) DEBUG TranspilingLanguageService Resolving lib file lib.es5.d.ts to C:\Users\Martin\Desktop\fire\node_modules\typescript\lib\lib.es5.d.ts
+19:41:30 (8956) DEBUG TranspilingLanguageService Pulling file into memory: lib.es5.d.ts
+19:41:30 (8956) DEBUG TranspilingLanguageService Resolving lib file lib.dom.d.ts to C:\Users\Martin\Desktop\fire\node_modules\typescript\lib\lib.dom.d.ts
+19:41:30 (8956) DEBUG TranspilingLanguageService Pulling file into memory: lib.dom.d.ts
+19:41:30 (8956) DEBUG TranspilingLanguageService Resolving lib file lib.webworker.importscripts.d.ts to C:\Users\Martin\Desktop\fire\node_modules\typescript\lib\lib.webworker.importscripts.d.ts
+19:41:30 (8956) DEBUG TranspilingLanguageService Pulling file into memory: lib.webworker.importscripts.d.ts
+19:41:30 (8956) DEBUG TranspilingLanguageService Resolving lib file lib.scripthost.d.ts to C:\Users\Martin\Desktop\fire\node_modules\typescript\lib\lib.scripthost.d.ts
+19:41:30 (8956) DEBUG TranspilingLanguageService Pulling file into memory: lib.scripthost.d.ts
+19:41:30 (8956) DEBUG InitialTestExecutor Transpiled files: [
+  "C:\\Users\\Martin\\Desktop\\fire\\.nyc_output\\8d659356-f5e1-4457-80ec-16c68e9e1dda.json",
+  "C:\\Users\\Martin\\Desktop\\fire\\.nyc_output\\9dad85ad-caf2-49a1-a7b7-b0cb6984f201.json",
+  "C:\\Users\\Martin\\Desktop\\fire\\.nyc_output\\processinfo\\8d659356-f5e1-4457-80ec-16c68e9e1dda.json",
+  "C:\\Users\\Martin\\Desktop\\fire\\.nyc_output\\processinfo\\9dad85ad-caf2-49a1-a7b7-b0cb6984f201.json",
+  "C:\\Users\\Martin\\Desktop\\fire\\stryker.log",
+  "C:\\Users\\Martin\\Desktop\\fire\\.circleci\\config.yml",
+  "C:\\Users\\Martin\\Desktop\\fire\\.gitignore",
+  "C:\\Users\\Martin\\Desktop\\fire\\.nyc_output\\processinfo\\index.json",
+  "C:\\Users\\Martin\\Desktop\\fire\\README.md",
+  "C:\\Users\\Martin\\Desktop\\fire\\coverage\\lcov-report\\Test\\index.html",
+  "C:\\Users\\Martin\\Desktop\\fire\\coverage\\lcov-report\\Test\\lol.spec.ts.html",
+  "C:\\Users\\Martin\\Desktop\\fire\\coverage\\lcov-report\\base.css",
+  "C:\\Users\\Martin\\Desktop\\fire\\coverage\\lcov-report\\block-navigation.js",
+  "C:\\Users\\Martin\\Desktop\\fire\\coverage\\lcov-report\\index.html",
+  "C:\\Users\\Martin\\Desktop\\fire\\coverage\\lcov-report\\prettify.css",
+  "C:\\Users\\Martin\\Desktop\\fire\\coverage\\lcov-report\\prettify.js",
+  "C:\\Users\\Martin\\Desktop\\fire\\coverage\\lcov-report\\sort-arrow-sprite.png",
+  "C:\\Users\\Martin\\Desktop\\fire\\coverage\\lcov-report\\sorter.js",
+  "C:\\Users\\Martin\\Desktop\\fire\\coverage\\lcov-report\\src\\index.html",
+  "C:\\Users\\Martin\\Desktop\\fire\\coverage\\lcov-report\\src\\lol.ts.html",
+  "C:\\Users\\Martin\\Desktop\\fire\\coverage\\lcov.info",
+  "C:\\Users\\Martin\\Desktop\\fire\\package-lock.json",
+  "C:\\Users\\Martin\\Desktop\\fire\\package.json",
+  "C:\\Users\\Martin\\Desktop\\fire\\reports\\mutation\\html\\bind-mutation-test-report.js",
+  "C:\\Users\\Martin\\Desktop\\fire\\reports\\mutation\\html\\index.html",
+  "C:\\Users\\Martin\\Desktop\\fire\\reports\\mutation\\html\\mutation-test-elements.js",
+  "C:\\Users\\Martin\\Desktop\\fire\\reports\\mutation\\html\\stryker-80x80.png",
+  "C:\\Users\\Martin\\Desktop\\fire\\stryker.conf.js",
+  "C:\\Users\\Martin\\Desktop\\fire\\tsconfig.json",
+  "C:\\Users\\Martin\\Desktop\\fire\\Test\\lol.spec.js",
+  "C:\\Users\\Martin\\Desktop\\fire\\src\\lol.js"
+]
+19:41:30 (8956) DEBUG Sandbox Creating a sandbox for files in C:\Users\Martin\Desktop\fire\.stryker-tmp\sandbox817823
+19:41:30 (8956) DEBUG Sandbox Creating test runner 0
+19:41:30 (8956) DEBUG ChildProcessProxy Starting C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\test-runner\ChildProcessTestRunnerWorker.js in child process 8868
+19:41:32 (8956) DEBUG TimeoutDecorator Starting timeout timer (300000 ms) for a test run
+19:41:31 (8868) DEBUG ChildProcessProxyWorker Changing current working directory for this process to C:\Users\Martin\Desktop\fire\.stryker-tmp\sandbox817823
+19:41:31 (8868) DEBUG PluginLoader Loading @stryker-mutator/* from C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator
+19:41:31 (8868) DEBUG PluginLoader Loading plugin "C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\html-reporter" (matched with expression @stryker-mutator/*)
+19:41:31 (8868) DEBUG PluginLoader Loading plugin "C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\mocha-framework" (matched with expression @stryker-mutator/*)
+19:41:31 (8868) DEBUG PluginLoader Loading plugin "C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\mocha-runner" (matched with expression @stryker-mutator/*)
+19:41:31 (8868) DEBUG PluginLoader Loading plugin "C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\typescript" (matched with expression @stryker-mutator/*)
+19:41:31 (8868) DEBUG PluginLoader Loading plugins C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\html-reporter
+19:41:31 (8868) DEBUG PluginLoader Loading plugins C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\mocha-framework
+19:41:31 (8868) DEBUG PluginLoader Loading plugins C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\mocha-runner
+19:41:31 (8868) DEBUG PluginLoader Loading plugins C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\typescript
+19:41:31 (8868) DEBUG PluginLoader Loading plugins C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\reporters\index.js
+19:41:32 (8868) DEBUG MochaTestRunner Mocha >= 6 detected. Using mocha's `handleFiles` to load files
+19:41:32 (8868) DEBUG MochaTestRunner Starting Mocha test run
+19:41:32 (8868) DEBUG MochaTestRunner Mocha test run completed: 1/1 passed
+19:41:32 (8956) DEBUG ChildProcessProxy Disposing of worker process 8868
+19:41:32 (8956) DEBUG ChildProcessProxy Kill 8868
+19:41:32 (8956) INFO InitialTestExecutor Initial test run succeeded. Ran 1 tests in 2 seconds (net 5 ms, overhead 185 ms).
+19:41:32 (8956) DEBUG ChildProcessProxy Starting C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\transpiler\ChildProcessTranspilerWorker.js in child process 5592
+19:41:32 (5592) DEBUG PluginLoader Loading @stryker-mutator/* from C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator
+19:41:32 (5592) DEBUG PluginLoader Loading plugin "C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\html-reporter" (matched with expression @stryker-mutator/*)
+19:41:32 (5592) DEBUG PluginLoader Loading plugin "C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\mocha-framework" (matched with expression @stryker-mutator/*)
+19:41:32 (5592) DEBUG PluginLoader Loading plugin "C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\mocha-runner" (matched with expression @stryker-mutator/*)
+19:41:32 (5592) DEBUG PluginLoader Loading plugin "C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\typescript" (matched with expression @stryker-mutator/*)
+19:41:32 (5592) DEBUG PluginLoader Loading plugins C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\html-reporter
+19:41:32 (5592) DEBUG PluginLoader Loading plugins C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\mocha-framework
+19:41:32 (5592) DEBUG PluginLoader Loading plugins C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\mocha-runner
+19:41:32 (5592) DEBUG PluginLoader Loading plugins C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\typescript
+19:41:33 (5592) DEBUG PluginLoader Loading plugins C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\reporters\index.js
+19:41:33 (5592) DEBUG TranspilingLanguageService Pulling file into memory: C:/Users/Martin/Desktop/fire/node_modules/@types/chai/index.d.ts
+19:41:33 (5592) DEBUG TranspilingLanguageService Pulling file into memory: C:/Users/Martin/Desktop/fire/node_modules/@types/minimatch/index.d.ts
+19:41:33 (5592) DEBUG TranspilingLanguageService Pulling file into memory: C:/Users/Martin/Desktop/fire/node_modules/@types/mocha/index.d.ts
+19:41:33 (5592) DEBUG TranspilingLanguageService Resolving lib file lib.d.ts to C:\Users\Martin\Desktop\fire\node_modules\typescript\lib\lib.d.ts
+19:41:33 (5592) DEBUG TranspilingLanguageService Pulling file into memory: lib.d.ts
+19:41:33 (5592) DEBUG TranspilingLanguageService Resolving lib file lib.es5.d.ts to C:\Users\Martin\Desktop\fire\node_modules\typescript\lib\lib.es5.d.ts
+19:41:33 (5592) DEBUG TranspilingLanguageService Pulling file into memory: lib.es5.d.ts
+19:41:33 (5592) DEBUG TranspilingLanguageService Resolving lib file lib.dom.d.ts to C:\Users\Martin\Desktop\fire\node_modules\typescript\lib\lib.dom.d.ts
+19:41:33 (5592) DEBUG TranspilingLanguageService Pulling file into memory: lib.dom.d.ts
+19:41:33 (5592) DEBUG TranspilingLanguageService Resolving lib file lib.webworker.importscripts.d.ts to C:\Users\Martin\Desktop\fire\node_modules\typescript\lib\lib.webworker.importscripts.d.ts
+19:41:33 (5592) DEBUG TranspilingLanguageService Pulling file into memory: lib.webworker.importscripts.d.ts
+19:41:33 (5592) DEBUG TranspilingLanguageService Resolving lib file lib.scripthost.d.ts to C:\Users\Martin\Desktop\fire\node_modules\typescript\lib\lib.scripthost.d.ts
+19:41:33 (5592) DEBUG TranspilingLanguageService Pulling file into memory: lib.scripthost.d.ts
+19:41:34 (8956) INFO MutatorFacade 4 Mutant(s) generated
+19:41:34 (8956) INFO SandboxPool Creating 3 test runners (based on CPU count)
+19:41:34 (8956) DEBUG Sandbox Creating a sandbox for files in C:\Users\Martin\Desktop\fire\.stryker-tmp\sandbox3861869
+19:41:34 (8956) DEBUG Sandbox Creating a sandbox for files in C:\Users\Martin\Desktop\fire\.stryker-tmp\sandbox7674656
+19:41:34 (8956) DEBUG Sandbox Creating test runner 1
+19:41:34 (8956) DEBUG ChildProcessProxy Starting C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\test-runner\ChildProcessTestRunnerWorker.js in child process 12508
+19:41:34 (8956) DEBUG Sandbox Creating test runner 0
+19:41:34 (8956) DEBUG ChildProcessProxy Starting C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\test-runner\ChildProcessTestRunnerWorker.js in child process 2352
+19:41:35 (8956) DEBUG Sandbox Creating a sandbox for files in C:\Users\Martin\Desktop\fire\.stryker-tmp\sandbox4459298
+19:41:34 (2352) DEBUG ChildProcessProxyWorker Changing current working directory for this process to C:\Users\Martin\Desktop\fire\.stryker-tmp\sandbox3861869
+19:41:34 (2352) DEBUG PluginLoader Loading @stryker-mutator/* from C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator
+19:41:34 (2352) DEBUG PluginLoader Loading plugin "C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\html-reporter" (matched with expression @stryker-mutator/*)
+19:41:34 (2352) DEBUG PluginLoader Loading plugin "C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\mocha-framework" (matched with expression @stryker-mutator/*)
+19:41:34 (2352) DEBUG PluginLoader Loading plugin "C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\mocha-runner" (matched with expression @stryker-mutator/*)
+19:41:34 (2352) DEBUG PluginLoader Loading plugin "C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\typescript" (matched with expression @stryker-mutator/*)
+19:41:34 (2352) DEBUG PluginLoader Loading plugins C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\html-reporter
+19:41:34 (2352) DEBUG PluginLoader Loading plugins C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\mocha-framework
+19:41:34 (2352) DEBUG PluginLoader Loading plugins C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\mocha-runner
+19:41:35 (2352) DEBUG PluginLoader Loading plugins C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\typescript
+19:41:35 (2352) DEBUG PluginLoader Loading plugins C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\reporters\index.js
+19:41:35 (2352) DEBUG MochaTestRunner Mocha >= 6 detected. Using mocha's `handleFiles` to load files
+19:41:35 (8956) DEBUG TimeoutDecorator Starting timeout timer (5192.5 ms) for a test run
+19:41:35 (8956) DEBUG Sandbox Creating test runner 2
+19:41:35 (8956) DEBUG ChildProcessProxy Starting C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\test-runner\ChildProcessTestRunnerWorker.js in child process 14952
+19:41:35 (8956) DEBUG Sandbox Transpile error occurred: "Error: Error: An error occurred in transpiler "typescript". Inner error: Error: C:/Users/Martin/Desktop/fire/src/lol.ts(2,15): error TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+C:/Users/Martin/Desktop/fire/src/lol.ts(2,26): error TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+
+Error: C:/Users/Martin/Desktop/fire/src/lol.ts(2,15): error TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+C:/Users/Martin/Desktop/fire/src/lol.ts(2,26): error TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+
+    at TypescriptTranspiler.transpile (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\typescript\src\TypescriptTranspiler.js:25:35)
+    at TranspilerFacade.performTranspileChain (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\transpiler\TranspilerFacade.js:23:53)
+    at TranspilerFacade.transpile (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\transpiler\TranspilerFacade.js:18:21)
+    at ChildProcessTranspilerWorker.transpile (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\transpiler\ChildProcessTranspilerWorker.js:14:37)
+    at ChildProcessProxyWorker.doCall (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\child-proxy\ChildProcessProxyWorker.js:74:56)
+    at resolve (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\child-proxy\ChildProcessProxyWorker.js:46:53)
+    at new Promise (<anonymous>)
+    at ChildProcessProxyWorker.handleMessage (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\child-proxy\ChildProcessProxyWorker.js:46:17)
+    at process.emit (events.js:189:13)
+    at emit (internal/child_process.js:820:12)
+Error: An error occurred in transpiler "typescript". Inner error: Error: C:/Users/Martin/Desktop/fire/src/lol.ts(2,15): error TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+C:/Users/Martin/Desktop/fire/src/lol.ts(2,26): error TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+
+Error: C:/Users/Martin/Desktop/fire/src/lol.ts(2,15): error TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+C:/Users/Martin/Desktop/fire/src/lol.ts(2,26): error TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+
+    at TypescriptTranspiler.transpile (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\typescript\src\TypescriptTranspiler.js:25:35)
+    at TranspilerFacade.performTranspileChain (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\transpiler\TranspilerFacade.js:23:53)
+    at TranspilerFacade.transpile (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\transpiler\TranspilerFacade.js:18:21)
+    at ChildProcessTranspilerWorker.transpile (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\transpiler\ChildProcessTranspilerWorker.js:14:37)
+    at ChildProcessProxyWorker.doCall (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\child-proxy\ChildProcessProxyWorker.js:74:56)
+    at resolve (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\child-proxy\ChildProcessProxyWorker.js:46:53)
+    at new Promise (<anonymous>)
+    at ChildProcessProxyWorker.handleMessage (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\child-proxy\ChildProcessProxyWorker.js:46:17)
+    at process.emit (events.js:189:13)
+    at emit (internal/child_process.js:820:12)
+    at current.transpiler.transpile.catch.error (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\transpiler\TranspilerFacade.js:25:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Error: Error: An error occurred in transpiler "typescript". Inner error: Error: C:/Users/Martin/Desktop/fire/src/lol.ts(2,15): error TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+C:/Users/Martin/Desktop/fire/src/lol.ts(2,26): error TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+
+Error: C:/Users/Martin/Desktop/fire/src/lol.ts(2,15): error TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+C:/Users/Martin/Desktop/fire/src/lol.ts(2,26): error TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+
+    at TypescriptTranspiler.transpile (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\typescript\src\TypescriptTranspiler.js:25:35)
+    at TranspilerFacade.performTranspileChain (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\transpiler\TranspilerFacade.js:23:53)
+    at TranspilerFacade.transpile (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\transpiler\TranspilerFacade.js:18:21)
+    at ChildProcessTranspilerWorker.transpile (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\transpiler\ChildProcessTranspilerWorker.js:14:37)
+    at ChildProcessProxyWorker.doCall (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\child-proxy\ChildProcessProxyWorker.js:74:56)
+    at resolve (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\child-proxy\ChildProcessProxyWorker.js:46:53)
+    at new Promise (<anonymous>)
+    at ChildProcessProxyWorker.handleMessage (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\child-proxy\ChildProcessProxyWorker.js:46:17)
+    at process.emit (events.js:189:13)
+    at emit (internal/child_process.js:820:12)
+Error: An error occurred in transpiler "typescript". Inner error: Error: C:/Users/Martin/Desktop/fire/src/lol.ts(2,15): error TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+C:/Users/Martin/Desktop/fire/src/lol.ts(2,26): error TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+
+Error: C:/Users/Martin/Desktop/fire/src/lol.ts(2,15): error TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+C:/Users/Martin/Desktop/fire/src/lol.ts(2,26): error TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+
+    at TypescriptTranspiler.transpile (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\typescript\src\TypescriptTranspiler.js:25:35)
+    at TranspilerFacade.performTranspileChain (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\transpiler\TranspilerFacade.js:23:53)
+    at TranspilerFacade.transpile (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\transpiler\TranspilerFacade.js:18:21)
+    at ChildProcessTranspilerWorker.transpile (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\transpiler\ChildProcessTranspilerWorker.js:14:37)
+    at ChildProcessProxyWorker.doCall (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\child-proxy\ChildProcessProxyWorker.js:74:56)
+    at resolve (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\child-proxy\ChildProcessProxyWorker.js:46:53)
+    at new Promise (<anonymous>)
+    at ChildProcessProxyWorker.handleMessage (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\child-proxy\ChildProcessProxyWorker.js:46:17)
+    at process.emit (events.js:189:13)
+    at emit (internal/child_process.js:820:12)
+    at current.transpiler.transpile.catch.error (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\transpiler\TranspilerFacade.js:25:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+    at ChildProcess.worker.on (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\child-proxy\ChildProcessProxy.js:100:68)
+    at ChildProcess.emit (events.js:189:13)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)" during transpiling of mutant BinaryExpression: (-) file://C:\Users\Martin\Desktop\fire\src\lol.ts:2:24
+19:41:34 (12508) DEBUG ChildProcessProxyWorker Changing current working directory for this process to C:\Users\Martin\Desktop\fire\.stryker-tmp\sandbox7674656
+19:41:35 (8956) DEBUG TimeoutDecorator Starting timeout timer (5192.5 ms) for a test run
+19:41:34 (12508) DEBUG PluginLoader Loading @stryker-mutator/* from C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator
+19:41:34 (12508) DEBUG PluginLoader Loading plugin "C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\html-reporter" (matched with expression @stryker-mutator/*)
+19:41:34 (12508) DEBUG PluginLoader Loading plugin "C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\mocha-framework" (matched with expression @stryker-mutator/*)
+19:41:34 (12508) DEBUG PluginLoader Loading plugin "C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\mocha-runner" (matched with expression @stryker-mutator/*)
+19:41:34 (12508) DEBUG PluginLoader Loading plugin "C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\typescript" (matched with expression @stryker-mutator/*)
+19:41:34 (12508) DEBUG PluginLoader Loading plugins C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\html-reporter
+19:41:34 (12508) DEBUG PluginLoader Loading plugins C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\mocha-framework
+19:41:34 (12508) DEBUG PluginLoader Loading plugins C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\mocha-runner
+19:41:35 (12508) DEBUG PluginLoader Loading plugins C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\typescript
+19:41:35 (12508) DEBUG PluginLoader Loading plugins C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\reporters\index.js
+19:41:35 (12508) DEBUG MochaTestRunner Mocha >= 6 detected. Using mocha's `handleFiles` to load files
+19:41:35 (2352) DEBUG MochaTestRunner Starting Mocha test run
+19:41:35 (2352) TRACE MochaTestRunner Test failed: Describe lol It Should duck duck. Error: expected undefined to equal 'P'
+19:41:35 (2352) DEBUG MochaTestRunner Mocha test run completed: 0/1 passed
+19:41:35 (8956) DEBUG TimeoutDecorator Starting timeout timer (5192.5 ms) for a test run
+19:41:35 (2352) DEBUG MochaTestRunner Starting Mocha test run
+19:41:35 (2352) DEBUG MochaTestRunner Mocha test run completed: 0/0 passed
+19:41:35 (12508) DEBUG MochaTestRunner Starting Mocha test run
+19:41:35 (12508) DEBUG MochaTestRunner Mocha test run completed: 1/1 passed
+19:41:35 (8956) DEBUG HtmlReporter No base folder configuration found (using configuration: htmlReporter: { baseDir: 'output/folder' }), using default reports\mutation\html
+19:41:35 (8956) INFO DashboardReporter Dashboard report is not sent when not running on a build server
+19:41:35 (8956) DEBUG ScoreResultCalculator No breaking threshold configured. Won't fail the build no matter how low your mutation score is. Set `thresholds.break` to change this behavior.
+19:41:35 (8956) INFO HtmlReporter Your report can be found at: file:///C:/Users/Martin/Desktop/fire/reports/mutation/html/index.html
+19:41:35 (8956) DEBUG TempFolder Deleting stryker temp folder C:\Users\Martin\Desktop\fire\.stryker-tmp
+19:41:36 (8956) TRACE ChildProcessProxy internal/process/main_
+19:41:36 (8956) TRACE ChildProcessProxy thread_only.js:31
+    return _chdir(...args);
+           ^
+
+Error: ENOENT: no such file or directory, chdir 'C:\Users\Martin\Desktop\fire\.stryker-tmp\sandbox4459298'
+    at process.chdir (internal/process/main_thread_only.js:31:12)
+    at process.chdir (C:\Users\Martin\Desktop\fire\node_modules\graceful-fs\polyfills.js:20:9)
+    at ChildProcessProxyWorker.h
+19:41:36 (8956) TRACE ChildProcessProxy andleMessage (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\ch
+19:41:36 (8956) TRACE ChildProcessProxy ild-proxy\ChildProcessProxyWorker.js:39:29)
+    at process.emit (events.js:189:13)
+    at emit (internal/child_process.js:820:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+
+19:41:36 (8956) WARN ChildProcessProxy Child process [pid 14952] exited unexpectedly with exit code 1 (without signal). Last part of stdout and stderr was:
+	internal/process/main_
+	thread_only.js:31
+	    return _chdir(...args);
+	           ^
+	
+	Error: ENOENT: no such file or directory, chdir 'C:\Users\Martin\Desktop\fire\.stryker-tmp\sandbox4459298'
+	    at process.chdir (internal/process/main_thread_only.js:31:12)
+	    at process.chdir (C:\Users\Martin\Desktop\fire\node_modules\graceful-fs\polyfills.js:20:9)
+	    at ChildProcessProxyWorker.h
+	andleMessage (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\ch
+	ild-proxy\ChildProcessProxyWorker.js:39:29)
+	    at process.emit (events.js:189:13)
+	    at emit (internal/child_process.js:820:12)
+	    at process._tickCallback (internal/process/next_tick.js:63:19)
+	 { Error: Child process [pid 14952] exited unexpectedly with exit code 1 (without signal). Last part of stdout and stderr was:
+	internal/process/main_
+	thread_only.js:31
+	    return _chdir(...args);
+	           ^
+	
+	Error: ENOENT: no such file or directory, chdir 'C:\Users\Martin\Desktop\fire\.stryker-tmp\sandbox4459298'
+	    at process.chdir (internal/process/main_thread_only.js:31:12)
+	    at process.chdir (C:\Users\Martin\Desktop\fire\node_modules\graceful-fs\polyfills.js:20:9)
+	    at ChildProcessProxyWorker.h
+	andleMessage (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\ch
+	ild-proxy\ChildProcessProxyWorker.js:39:29)
+	    at process.emit (events.js:189:13)
+	    at emit (internal/child_process.js:820:12)
+	    at process._tickCallback (internal/process/next_tick.js:63:19)
+	
+    at ChildProcessProxy.handleUnexpectedExit (C:\Users\Martin\Desktop\fire\node_modules\@stryker-mutator\core\src\child-proxy\ChildProcessProxy.js:143:33)
+    at ChildProcess.emit (events.js:189:13)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:248:12) innerError: undefined, pid: 14952, exitCode: 1, signal: null }
+19:41:38 (8956) INFO TempFolder Failed to delete stryker temp folder C:\Users\Martin\Desktop\fire\.stryker-tmp
+19:41:38 (8956) INFO Stryker Done in 8 seconds.
+19:41:38 (8956) DEBUG ChildProcessProxy Disposing of worker process 5592
